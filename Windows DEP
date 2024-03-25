@@ -1,4 +1,10 @@
 bcdedit.exe /set {current} nx OptIn
 
+bcdedit.exe /set {current} nx AlwaysOff
+
+
 
 https://productdocuments.mitel.com/AEM/Applications/Contact%20Center/MiCC-B/9.3%20SP2/MiVB/HTML5/MiVB_OnlineHelp/content/admin-install/disabling_data_execution_prevention.html
+
+
+wmic OS Get DataExecutionPrevention_SupportPolicy
