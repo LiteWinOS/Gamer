@@ -1,3 +1,8 @@
 dism /online /get-features /format:table | find /i "virtual"
 VirtualMachinePlatform                      | Disabled
 HyperV-KernelInt-VirtualDevice              | Disabled
+
+
+
+Virtualization-based security	Not enabled
+Automatic Device Encryption Support	Not Available
