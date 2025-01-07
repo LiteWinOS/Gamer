@@ -1,0 +1,3 @@
+dism /online /get-features /format:table | find /i "virtual"
+VirtualMachinePlatform                      | Disabled
+HyperV-KernelInt-VirtualDevice              | Disabled
