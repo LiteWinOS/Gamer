@@ -28,6 +28,7 @@ Disable Unused Onboard Devices: If you use a discrete GPU, disable onboard graph
 If you have a separate network card, disable onboard LAN. This frees up system resources and reduces potential DPC latency sources.
 
 
+12700K RTX 3070 1440p Mid 
 before bios 
 [VProf] FPS: Avg=337.3, P1=152.9
 after
