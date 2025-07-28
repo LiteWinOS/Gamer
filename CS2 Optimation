@@ -31,7 +31,7 @@ If you have a separate network card, disable onboard LAN. This frees up system r
 12700K RTX 3070 1440p Mid 
 before bios 
 [VProf] FPS: Avg=337.3, P1=152.9
-after
+after basic tweaks
 [VProf] FPS: Avg=352.4, P1=164.2
 
 
