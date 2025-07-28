@@ -1,0 +1,31 @@
+run Ultimate Performance.pow cs2.bat
+from - Desktop\LiteOS-Links folder 
+
+bios settings:
+
+Basic:
+Above 4G Decoding / Re-Size BAR - Enable
+Load Line Calibration (LLC) - Medium - if gaming feel a bit better and not there yet try increase it 
+CPU Power Phase Control / VRM Switching Frequency: Set to "Extreme," "Full,"
+PCIe Link Speed - set to max u gpu support - dont use auto 
+Enable XMP/DOCP/EXPO
+
+
+eSport - for advanced 
+
+Set DDR Gear 1 or the lowest u able
+
+Memory Context Restore (MCR) / Power Down Enable: On AMD platforms (especially AM5), disabling "Memory Context Restore" or "Power Down Enable" 
+in some cases has shown to reduce input lag and improve frame times, though it will increase boot times. Experiment with this.
+
+Disable C-States (C1E, C3, C6, C7): This is one of the most consistently recommended changes for reducing input lag. 
+Prevents the CPU from entering low-power states, ensuring it's always ready for immediate action.
+
+Disable EIST (Intel SpeedStep) / Cool'n'Quiet (AMD): Similar to C-states, 
+these dynamic frequency adjustments can introduce micro-stutters.
+
+Disable Unused Onboard Devices: If you use a discrete GPU, disable onboard graphics. If you use a dedicated sound card, disable onboard audio. 
+If you have a separate network card, disable onboard LAN. This frees up system resources and reduces potential DPC latency sources.
+
+
+
