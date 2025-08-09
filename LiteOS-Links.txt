@@ -10,7 +10,7 @@ D:
     │   Ultimate Performance.pow cs2.bat - run this for cs2
     │
     ├───Macro Tweaks - More Broad Tweak unlike personal tweak 
-    │       InSpectre.exe  - Run and disable protections but increase AVG and 0.1%
+    │       InSpectre.exe  - Run and disable protections but increase AVG and 0.1% in non-modern cpus
     │       Win32PrioritySeparation_26Hex.reg - for Gamers-non-Streamer
     │
     ├───Micro Tweaks
@@ -29,4 +29,5 @@ D:
     └───Non-Specific - Can be both micro and macro in that sense
             7.Disable User Account Control.reg
             Disable_All_Windows_Security_notifications_for_all_users.reg
+
 
