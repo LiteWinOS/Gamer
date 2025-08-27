@@ -35,5 +35,10 @@ after basic tweaks
 [VProf] FPS: Avg=352.4, P1=164.2
 
 
+Ultimate with disable hyper-v (Bios SVM / VT-x) - 4% increase
+
+[VProf] Summary of 40309 frames and 115 1-second intervals.  (3519 frames excluded from analysis.)
+[VProf] FPS: Avg=352.4, P1=171.1
+
 
 
