@@ -17,6 +17,6 @@ So DDR Voltage from 1.35v to 1.4v
 VCCSA - 1.2v from default
 Disable Block Feq OC - so it will do 100.000 Mhz without changing [ SO also not 'Auto' setting either ]
 
-U might also need change 
+U might also need to change 
 VCCIO look it up 
 
