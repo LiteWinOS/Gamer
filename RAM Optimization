@@ -15,7 +15,7 @@ cos the memory bin is not perfect, their[OEM*] testing cant products that kind o
 
 So DDR Voltage from 1.35v to 1.4v
 VCCSA - 1.2v from default
-Disable Block Feq OC - so it will do 100.000 Mhz without changing
+Disable Block Feq OC - so it will do 100.000 Mhz without changing [ SO also not 'Auto' setting either ]
 
 U might need to also change 
 VCCIO look it up 
