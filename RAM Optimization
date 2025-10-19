@@ -1,1 +1,22 @@
 Ram Optimization
+
+
+XMP is Overclock Profile 
+which mean, it not fully tested by the OEM*
+so if u enable it on ur system ure getting not just good memory boost and latency 
+but also u might get some inconsistency
+
+so we need to sometimes look for better voltages to keep it up in stress cases like cs2
+
+So like DDR4 which gonna have 1.2v in non-xmp profile 
+and 1.35v in XMP, u might have sometimes need to increase it to 1.4v
+cos the memory bin is not perfect, their[OEM*] testing cant products that kind of benchmark
+
+
+So DDR Voltage from 1.35v to 1.4v
+VCCSA - 1.2v from default
+Disable Block Feq OC - so it will do 100.000 Mhz without changing
+
+U might need to also change 
+VCCIO look it up 
+
