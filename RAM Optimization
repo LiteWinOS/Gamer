@@ -10,7 +10,7 @@ so we need to sometimes look for better voltages to keep it up in stress cases l
 
 So like DDR4 which gonna have 1.2v in non-xmp profile 
 and 1.35v in XMP, u might have sometimes need to increase it to 1.4v
-cos the memory bin is not perfect, their[OEM*] testing cant products that kind of benchmark
+cos the memory bin is not perfect, their[OEM*] testing cant products that kind of Profile 
 
 
 So DDR Voltage from 1.35v to 1.4v
