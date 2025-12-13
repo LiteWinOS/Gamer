@@ -2,25 +2,33 @@
 
 # Finding the Optimal DPI and Understanding Firmware Limits in Gaming Mice
 
-High-end gaming mice today often boast incredible specs: ultra-high DPI sensors, lightning-fast polling rates, lightweight designs, and advanced firmware. But for competitive gaming, **raw numbers alone don’t guarantee better aim or consistency**. Proper tuning and understanding your mouse’s capabilities are what make the difference.
+High-end gaming mice today often boast incredible specs: ultra-high DPI sensors, 
+lightning-fast polling rates, lightweight designs, and advanced firmware. But for competitive gaming, 
+**raw numbers alone don’t guarantee better aim or consistency**. Proper tuning and understanding your mouse’s capabilities are what make the difference.
 
 ---
 
 ## Why Higher DPI Isn’t Always Better
 
-Many players assume that higher DPI automatically means faster, more precise aiming. In reality, extremely high DPI can **amplify small hand movements**, causing micro-jitter or overshooting targets. Even the most advanced sensors can behave inconsistently when pushed to their maximum limits.
+Many players assume that higher DPI automatically means faster, more precise aiming. 
+In reality, extremely high DPI can **amplify small hand movements**, causing micro-jitter or overshooting targets. 
+Even the most advanced sensors can behave inconsistently when pushed to their maximum limits.
 
 * **Unstable tracking at extreme DPI**: Some mice show jitter or skipped input at ultra-high DPI.
-* **Residual instability**: After using very high DPI, lowering it may not immediately restore smooth tracking. This is often a **firmware or driver artifact**, not a hardware failure.
+* **Residual instability**: After using very high DPI, lowering it may not immediately restore smooth tracking. 
+This is often a **firmware or driver artifact**, not a hardware failure.
 
 ---
 
 ## Firmware: The Often Overlooked Limitation
 
-The sensor itself is only part of the picture. **Firmware processes sensor data**, applying filtering, smoothing, and acceleration corrections. Extreme settings can push the firmware beyond its optimal operating range:
+The sensor itself is only part of the picture. **Firmware processes sensor data**, 
+applying filtering, smoothing, and acceleration corrections. 
+Extreme settings can push the firmware beyond its optimal operating range:
 
 * **Stateful processing**: Some firmware retains calibration values from previous DPI modes.
-* **Narrow optimal range**: While sensors may advertise extremely high DPI, real-world stable operation is often within a **moderate range** (e.g., 800–2000 DPI for FPS games).
+* **Narrow optimal range**: While sensors may advertise extremely high DPI, 
+real-world stable operation is often within a **moderate range** (e.g., 800–2000 DPI for FPS games).
 * **Surface and driver interactions**: Even top-tier sensors can misread input if the mousepad is inconsistent or software isn’t properly configured.
 
 ---
@@ -51,7 +59,8 @@ These ranges provide smooth tracking while taking full advantage of the sensor�
 
 ## Bottom Line
 
-High-end gaming mice are capable of extraordinary performance, but **maximum DPI doesn’t equal better aim**. Stable, repeatable tracking comes from finding the **right DPI for your hand, surface, and playstyle**, while understanding that firmware and software play a critical role.
+High-end gaming mice are capable of extraordinary performance, but **maximum DPI doesn’t equal better aim**. 
+Stable, repeatable tracking comes from finding the **right DPI for your hand, surface, and playstyle**, while understanding that firmware and software play a critical role.
 
 **Sensor headroom is for safety; sweet spot DPI is for performance.**
 
