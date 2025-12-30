@@ -17,14 +17,17 @@ Priority & Limits
 
     Max Limit: Leave this as the default. It defines how many "messages" a device can send at once; changing it manually often causes system crashes.
 
-The "Do & Don't" Guide
-Device Type	Action	Why?
-Graphics Card (GPU)	ENABLE (High)	Improves frame pacing and reduces micro-stutters. (Must redo after every driver update!)
-Network Adapter	ENABLE (Normal/High)	Can stabilize ping and reduce "lag spikes."
-Audio Controller	ENABLE (Normal)	Often fixes audio crackling or popping sounds.
-USB Controllers	CAUTION	Only enable for the controller your mouse is on. Setting others can crash webcams or headsets.
-SATA/Storage	CAUTION	Can improve disk speed, but if unsupported, Windows might fail to boot.
-Bridge/Chipset	DO NOT TOUCH	Critical system "plumbing." Changing these usually leads to a Blue Screen (BSOD).
+### The "Do & Don't" Guide
+
+| Device Type | Action | Why? |
+| --- | --- | --- |
+| **Graphics Card (GPU)** | **ENABLE (High)** | Improves frame pacing and reduces micro-stutters. (Must redo after every driver update!) |
+| **Network Adapter** | **ENABLE (Normal/High)** | Can stabilize ping and reduce "lag spikes." |
+| **Audio Controller** | **ENABLE (Normal)** | Often fixes audio crackling or popping sounds. |
+| **USB Controllers** | **CAUTION** | Only enable for the controller your **mouse** is on. Setting others can crash webcams or headsets. |
+| **SATA/Storage** | **CAUTION** | Can improve disk speed, but if unsupported, Windows might fail to boot. |
+| **Bridge/Chipset** | **DO NOT TOUCH** | Critical system "plumbing." Changing these usually leads to a Blue Screen (BSOD). |
+
 Final Recommendations
 
     Check for support: Only check the box if the "MSI" column in the utility says "Yes" or shows it is supported.
