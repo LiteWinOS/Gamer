@@ -1,0 +1,34 @@
+To sum up our conversation, here is a "Cheat Sheet" for using the MSI Mode Utility effectively without breaking your system.
+Core Concepts
+
+    MSI / MSI-X (The "Modern" Way): Devices send "data messages" directly to the CPU. It is faster, handles more tasks at once, and reduces CPU lag.
+
+    Line-Based (The "Old" Way): Devices use physical electrical lines to signal the CPU. This is slower and can cause "traffic jams" (conflicts) if multiple devices share one line.
+
+    IRQ Numbers: If the number is positive, you are in Line-based mode. If it is negative (e.g., -5), you have successfully enabled MSI mode.
+
+Priority & Limits
+
+    Priority: Sets the "importance" of a device's request.
+
+        High: Use for your GPU (for FPS) and maybe Networking (for ping).
+
+        Undefined/Normal: Use for everything else. Setting everything to "High" defeats the purpose.
+
+    Max Limit: Leave this as the default. It defines how many "messages" a device can send at once; changing it manually often causes system crashes.
+
+The "Do & Don't" Guide
+Device Type	Action	Why?
+Graphics Card (GPU)	ENABLE (High)	Improves frame pacing and reduces micro-stutters. (Must redo after every driver update!)
+Network Adapter	ENABLE (Normal/High)	Can stabilize ping and reduce "lag spikes."
+Audio Controller	ENABLE (Normal)	Often fixes audio crackling or popping sounds.
+USB Controllers	CAUTION	Only enable for the controller your mouse is on. Setting others can crash webcams or headsets.
+SATA/Storage	CAUTION	Can improve disk speed, but if unsupported, Windows might fail to boot.
+Bridge/Chipset	DO NOT TOUCH	Critical system "plumbing." Changing these usually leads to a Blue Screen (BSOD).
+Final Recommendations
+
+    Check for support: Only check the box if the "MSI" column in the utility says "Yes" or shows it is supported.
+
+    Safety First: Create a System Restore Point before making changes.
+
+    The "Mouse" Test: If you enable it on a USB controller and your mouse stops moving, plug it into a different port (front vs. back) to get back into the app and revert the setting.
