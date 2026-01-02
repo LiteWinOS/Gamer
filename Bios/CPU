@@ -1,0 +1,30 @@
+1. Intel CEP (Current Excursion Protection)
+
+This is the most common "hidden" cause of stutters on your specific CPU.
+
+    What it does: It’s a safety feature that monitors the relationship between voltage and current. If you try to undervolt your CPU (or if the motherboard does it automatically to save heat), CEP might think the voltage is too low for the current load.
+
+    The "Hiccup": Instead of crashing, CEP throttles the execution units (phantom throttling). Your clock speed looks high in the task manager, but the actual performance drops for a millisecond, causing a massive frame-time spike.
+
+    The Fix: Many enthusiasts disable "IA CEP" in the BIOS to stop this "safety check" from interrupting the game.
+
+2. Thermal Velocity Boost (TVB) Voltage Optimizations
+
+Your 14700K has a feature called "TVB Voltage Optimizations."
+
+    What it does: It constantly checks the temperature. If the CPU is under 70°C, it tries to lower the voltage to stay efficient. If it hits 71°C, it suddenly requests more voltage.
+
+    The "Hiccup": That sudden jump in voltage causes a "VRM transition." For a tiny fraction of a second, the CPU pauses to stabilize the new power level. If this happens while you're in a gunfight in a game, you feel it as a hitch.
+
+    The Fix: Setting a Static Voltage or disabling TVB Voltage Optimizations in BIOS stops the CPU from "second-guessing" its power needs.
+
+3. The "Ring Bus" and E-Core Parking
+
+Even on the Ultimate plan, Windows sometimes tries to move "background" game threads (like audio or networking) to the E-Cores.
+
+    The "Hiccup": The P-cores and E-cores are connected by a "Ring Bus." If the E-cores are downclocking or trying to "park" (even slightly) while the P-cores are screaming at 5.5GHz, the Ring Bus has to slow down to accommodate the slowest part. This "Ring Downclock" creates a bottleneck for the entire CPU.
+
+    The Fix: This is why your decision to disable C-States was so effective—it keeps the Ring Bus frequency from dropping, ensuring that the "highway" between your cores is always running at full speed.
+
+
+  C-states (CPU sleep states) - disabled 
